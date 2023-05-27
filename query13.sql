@@ -1,0 +1,1 @@
+select Type_of_Supply, Count(*)  as Supply_count  FROM Supplier  Group By Type_of_Supply;
