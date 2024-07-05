@@ -1,0 +1,1 @@
+SELECT Customers.Name,Customers.customer_id, Product.Name, Product.ID,product_in_cart.Quantity  FROM Customers  INNER JOIN product_in_cart  ON Customers.customer_id = product_in_cart.Customer_ID  INNER JOIN Product  ON Product.ID = product_in_cart.Product_ID order by Customer_ID;

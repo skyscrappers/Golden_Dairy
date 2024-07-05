@@ -1,0 +1,1 @@
+select Type, Count(*) as Product_count FROM Product Group By Type; 

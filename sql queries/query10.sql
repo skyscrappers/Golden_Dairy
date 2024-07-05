@@ -1,0 +1,1 @@
+select Customers.Name as Customer_Name, Customers.customer_id, Employee.ID as Employee_ID, Employee.Name as Employee_Name from Customers inner join Employee join (select Orders.Customer_ID, Orders.Employee_ID from Orders) as T where Customers.customer_id = T.customer_ID and Employee.ID = T.Employee_ID;
