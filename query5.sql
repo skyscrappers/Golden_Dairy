@@ -1,1 +1,0 @@
-select * from Customers where customer_id not in (select customer_id from Orders); 

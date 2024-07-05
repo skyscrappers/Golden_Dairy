@@ -1,1 +1,0 @@
-select count(Customer_ID), Type from product_in_cart join Product on product_in_cart.Product_ID = Product.ID Group by Type;

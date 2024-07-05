@@ -1,1 +1,0 @@
-SELECT DISTINCT Employee.ID AS Employee_ID, Employee.Name AS Employee_Name FROM Employee INNER JOIN Orders ON Employee.ID = Orders.Employee_ID;
