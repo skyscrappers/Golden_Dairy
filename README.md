@@ -27,6 +27,8 @@ We have developed a database for Golden Dairy using SQL and Python. This project
 3. The cart can contain multiple products, and the "Product in Cart" table handles the multi-valued nature of this relationship.
 
 By organizing the database in this manner, we aim to efficiently manage and streamline the operations of Golden Dairy.
+## ER Diagram:
+![image](https://github.com/skyscrappers/Golden_Dairy/assets/107923239/6f76bbe4-69c6-4c80-9e59-f4ce58912c86)
 
 ## Relational Model:
 ![image](https://github.com/skyscrappers/Golden_Dairy/assets/107923239/35c48067-0e6b-4d5c-9a6f-79aaee2508bd)
